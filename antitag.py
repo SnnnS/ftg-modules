@@ -12,9 +12,9 @@ logger = logging.getLogger(__name__)
 class retMod(loader.Module):
     """Посылает сообщение при вашем теге"""
     strings = {"name": "RFD",
-               "gone": "Режим анти-тэга включен",
-               "back": "Режим анти-тэга выключен",
-               "ret": "<b>НЕ тэгай меня.</b>",
+               "gone": "cock up",
+               "back": "cock down",
+               "ret": "<b>🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈.</b>",
                "ret_reason": "{}"}
 
     async def client_ready(self, client, db):
