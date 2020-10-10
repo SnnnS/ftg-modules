@@ -14,7 +14,7 @@ class retMod(loader.Module):
     strings = {"name": "RFD",
                "gone": "Режим анти-тэга включен",
                "back": "Режим анти-тэга выключен",
-               "ret": "<b>НЕ тэгай меня.</b>",
+               "ret": "<b>занято.</b>",
                "ret_reason": "{}"}
 
     async def client_ready(self, client, db):
